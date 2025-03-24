@@ -54,7 +54,7 @@ education:
   - area: BSc in Computer Science and Engineering
     institution: Dhaka University of Engineering & Technology (DUET)
     date_start:
-    date_end: 2023-12-31
+    date_end: 2023-08-31
     summary: |
       Thesis on Machine Learning: Hybrid model for aquastic sound base Mosquito species classification. 
       Supervised by [Prof Fazlul Hasan Siddiqui](https://profile.duet.ac.bd/u/siddiqui). Presented papers at  IEEE conferences.

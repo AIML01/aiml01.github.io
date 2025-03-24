@@ -52,7 +52,7 @@ interests:
 
 education:
   - area: BSc in Computer Science and Engineering
-    institution: [Dhaka University of Engineering & Technology (DUET)](https://www.duet.ac.bd/)
+    institution: Dhaka University of Engineering & Technology (DUET)
     date_start: 2018-11-11
     date_end: 2023-08-31
     summary: |

@@ -31,9 +31,9 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  # - icon: "custom/mail" # at-symbol
-  #   url: 'mailto:research.rony@gmail.com'
-  #   label: E-mail Me
+  - icon: "custom/mail" # at-symbol
+    url: 'mailto:research.rony@gmail.com'
+    label: E-mail Me
   # - icon: brands/github
   #   url: https://github.com/gcushen
   - icon: brands/linkedin
@@ -42,22 +42,22 @@ profiles:
     url: https://scholar.google.com/citations?user=3ScF50oAAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-6492-745X
-  # - icon: "custom/researchgate"
-  #   url: https://www.researchgate.net/profile/Jahid-Hasan-Rony
+  - icon: "custom/researchgate"
+    url: https://www.researchgate.net/profile/Jahid-Hasan-Rony
 
 interests:
   - Artificial Intelligence
   - Computer Vision
   - Robotics
 
-# education:
-#   - area: BSc in Computer Science and Engineering
-#     institution: Dhaka University of Engineering & Technology (DUET)
-#     date_start: 2018-11-11
-#     date_end: 2023-08-31
-#     summary: |
-#       Thesis on Machine Learning: Hybrid model for aquastic sound base Mosquito species classification. 
-#       Supervised by [Prof Fazlul Hasan Siddiqui](https://profile.duet.ac.bd/u/siddiqui). Presented papers at  IEEE conferences.
+education:
+  - area: BSc in Computer Science and Engineering
+    institution: Dhaka University of Engineering & Technology (DUET)
+    date_start: 
+    date_end: 2023-08-31
+    summary: |
+      Thesis on Machine Learning: Hybrid model for aquastic sound base Mosquito species classification. 
+      Supervised by [Prof Fazlul Hasan Siddiqui](https://profile.duet.ac.bd/u/siddiqui). Presented papers at  IEEE conferences.
 
 
     # button:
@@ -102,10 +102,6 @@ work:
       - **Project: MetaVerse**
         - Explored the Metaverse concept and proposed an E-Commerce framework for Metaverse AR.
         - Published research paper in a Rank-B Conference.
-      # - **Teaching Undergrad Tutorial Classes | Dept. of CSE**
-      #   - CSC-101: Introduction to Computer Programming
-      #   - CIS-101: Fundamentals of Computer System
-
   - position: Teaching
     company_name: Independent University, Bangladesh
     company_url: "https://iub.ac.bd/"

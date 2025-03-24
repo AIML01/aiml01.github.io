@@ -42,8 +42,8 @@ profiles:
     url: https://scholar.google.com/citations?user=3ScF50oAAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-6492-745X
-  - icon: "custom/researchgate"
-    url: https://www.researchgate.net/profile/Jahid-Hasan-Rony
+  # - icon: "custom/researchgate"
+  #   url: https://www.researchgate.net/profile/Jahid-Hasan-Rony
 
 interests:
   - Artificial Intelligence
@@ -321,4 +321,6 @@ awards:
 
 ## About Me
 
-Jahid Hasan Rony is a reseracher at Independent University, Bangladesh, specializing in computer vision, machine learning, and the AI. He is actively involved in the Dental and AqUAVPlant project, where he contributes to UAV-based semantic segmentation of aquatic plants and Dental Dataset complex segmentation task. Previously, he worked as a Web and IoT Developer Intern at Texon Limited, where he developed interactive web applications and IoT solutions. His research interests span AI, robotics, and industrial automation, and he has contributed to various national and international competitions, securing top positions.
+Jahid Hasan Rony is a reseracher at Independent University, Bangladesh, specializing in computer vision, machine learning, and the AI. He is actively involved in the Dental and AqUAVPlant project, where he contributes to UAV-based semantic segmentation of aquatic plants and Dental Dataset complex segmentation task.
+ <!-- Previously, he worked as a Web and IoT Developer Intern at Texon Limited, where he developed interactive web applications and IoT solutions.  -->
+His research interests span AI, robotics, and industrial automation, and he has contributed to various national and international competitions, securing top positions.

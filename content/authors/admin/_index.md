@@ -24,14 +24,14 @@ role: AI Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Center for Industrial Automation Robotics & Internet of Things
+  - name: RIoT Center #Center for Industrial Automation Robotics & Internet of Things
     url: http://directory.iub.edu.bd/staffs/825
     # https://iub.ac.bd/directory/riot?type=centers-and-institutes
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: "custom/mail" # at-symbol
+  - icon: at-symbol
     url: 'mailto:research.rony@gmail.com'
     label: E-mail Me
   # - icon: brands/github
@@ -91,7 +91,7 @@ work:
     company_url: "https://www.iub.edu.bd/"
     company_logo: ""
     date_start: 2023-10-01
-    date_end: ""
+    date_end: 
     summary: |2-
       - **Project: AqUAVPlant - Computer Vision**
         - Collected, annotated, and published a UAV-based semantic segmentation dataset with 31 aquatic plant species in South Asia.
@@ -107,7 +107,7 @@ work:
     company_url: "https://iub.ac.bd/"
     company_logo: ""
     date_start: 2023-10-01
-    date_end: "2022-11-30"
+    date_end: 
     summary: |2-
       - CSC-101: Introduction to Computer Programming
       - CIS-101: Fundamentals of Computer System
@@ -117,7 +117,7 @@ work:
     company_url: "https://texonltd.com/"
     company_logo: ""
     date_start: 2022-09-01
-    date_end: 2022-11-30
+    date_end: 
     summary: |2-
       - Developed interactive web applications and IoT solutions using Flutter, Arduino, ESP, Firebase, and ThingSpeak.
 

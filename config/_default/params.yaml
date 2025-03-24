@@ -1,7 +1,3 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
 appearance:
@@ -13,9 +9,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    org_name: 'Independent University Bangladesh'
+    description: 'Jahid Hasan Rony is a reseracher at Independent University, Bangladesh, specializing in computer vision, machine learning, and the AI.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,17 +31,17 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "Jahid Hasan Rony"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+    notice: '© {year} Rony. This work is licensed under {license}'
+    # license:
+    #   enable: true
+    #   allow_derivatives: false
+    #   share_alike: true
+    #   allow_commercial: false
 
 # Localization
 locale:

@@ -111,7 +111,7 @@ work:
     company_url: "https://iub.ac.bd/"
     company_logo: ""
     date_start: 2023-10-01
-    date_end: ""
+    date_end: "2022-11-30"
     summary: |2-
       - CSC-101: Introduction to Computer Programming
       - CIS-101: Fundamentals of Computer System
@@ -259,7 +259,7 @@ languages:
 awards:
   - title: Best Poster Presentation
     # url: [ADD_LINK_HERE]
-    # date: '2023-XX-XX'
+    date: 2022-11-30
     awarder: International Conference on Sustainable Engineering Development (ICSED 2023)
     icon: award
     summary: |
@@ -267,7 +267,7 @@ awards:
 
   - title: Champion - Techfest IIT Bombay 2022
     # url: [ADD_LINK_HERE]
-    # date: '2022-XX-XX'
+    date: 2022-11-30
     awarder: Techfest IIT Bombay (Mesmerize Segment) [ROBOTICS]
     icon: trophy
     summary: |
@@ -275,7 +275,7 @@ awards:
 
   - title: Top-10 - TechnoXian World Robotics Championship 2023
     # url: [ADD_LINK_HERE]
-    # date: '2023-XX-XX'
+    date: 2022-11-30
     awarder: TechnoXian World Robotics Championship, India
     icon: robot
     summary: |
@@ -283,7 +283,7 @@ awards:
 
   - title: Champion - IEEE R10 STEM Quiz Competition
     # url: [ADD_LINK_HERE]
-    # date: 'XXXX-XX-XX'
+    date: 2022-11-30
     awarder: IEEE R10, organized by IEEE Hyderabad Section
     icon: certificate
     summary: |
@@ -291,7 +291,7 @@ awards:
 
   - title: Champion - Mind Spark 2022
     # url: [ADD_LINK_HERE]
-    # date: '2022-XX-XX'
+    date: 2022-11-30
     awarder: Ahsanullah University of Science and Technology (AUST)
     icon: trophy
     summary: |
@@ -299,7 +299,7 @@ awards:
 
   - title: Champion - DRC Fest 2022
     # url: [ADD_LINK_HERE]
-    # date: '2022-XX-XX'/
+    date: 2022-11-30
     awarder: Dhaka University of Engineering & Technology (DUET)
     icon: robot
     summary: |
@@ -307,7 +307,7 @@ awards:
 
   - title: Top-30 - Mujib-100 Idea Competition
     # url: [ADD_LINK_HERE]
-    # date: 'XXXX-XX-XX'
+    date: 2022-11-30
     awarder: University Grants Commission Bangladesh (UGC-BD)
     icon: award
     summary: |
@@ -315,7 +315,7 @@ awards:
 
   - title: Top-60 in Nationwide University Admission Test (DUET, CSE)
     # url: [ADD_LINK_HERE]
-    # date: '2018-XX-XX'
+    date: 2022-11-30
     awarder: Dhaka University of Engineering & Technology (DUET)
     icon: certificate
     summary: |

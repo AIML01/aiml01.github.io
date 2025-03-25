@@ -34,15 +34,22 @@ header:
     logo:
       text: "Jahid Hasan Rony"
 
-# Site footer
+# # Site footer
+footer:
+  copyright:
+    notice: '© {year} JH Rony.'
+#     # license:
+#     #   enable: true
+#     #   allow_derivatives: false
+#     #   share_alike: true
+#     #   allow_commercial: false
+
+
+# # Site footer
 # footer:
 #   copyright:
-#     notice: '© {year} Rony.'
-    # license:
-    #   enable: true
-    #   allow_derivatives: false
-    #   share_alike: true
-    #   allow_commercial: false
+#     notice: '© {year} JH Rony. Last updated on {{ .Site.Lastmod.Format "2006-01-02" }}'
+
 
 # Localization
 # locale:

@@ -24,7 +24,8 @@ role: AI Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: RIoT Center #Center for Industrial Automation Robotics & Internet of Things
+  - name: Center for Industrial Automation Robotics & Internet of Things
+  - name: Independent University Bangladesh
     url: http://directory.iub.edu.bd/staffs/825
     # https://iub.ac.bd/directory/riot?type=centers-and-institutes
 
@@ -86,8 +87,8 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Teaching and Research Assistant
-    company_name: Center for Industrial Automation Robotics & Internet of Things
+  - position: Researcher
+    company_name: Center for Industrial Automation Robotics & Internet of Things (RIoT)
     company_url: "https://www.iub.edu.bd/"
     company_logo: ""
     date_start: 2023-10-01
@@ -179,158 +180,73 @@ skills:
       - name: TensorFlow
         description: ''
         percent: 85
-        icon: tensorflow
+        icon: code-bracket-square
       - name: Keras
         description: ''
         percent: 90
-        icon: keras
+        icon: code-bracket-square
       - name: Scikit-learn
         description: ''
         percent: 95
-        icon: flask
-      - name: Pandas
-        description: ''
-        percent: 90
-        icon: table
+        icon: code-bracket-square
+      # - name: Pandas
+      #   description: ''
+      #   percent: 90
+      #   icon: command-line
       - name: Seaborn
         description: ''
         percent: 80
-        icon: chart-bar
+        icon: command-line
       - name: EEGLAB
         description: ''
         percent: 70
-        icon: brain
+        icon: command-line
   - name: Embedded
     items:
       - name: Arduino
         description: ''
         percent: 85
-        icon: chip
+        icon: cpu-chip
       - name: Raspberry Pi
         description: ''
         percent: 80
-        icon: markdown
+        icon: cpu-chip
       - name: ESP
         description: ''
         percent: 75
-        icon: chip
+        icon: cpu-chip
       - name: Firebase
         description: ''
         percent: 85
-        icon: firebase
+        icon: circle-stack
       - name: ThingSpeak
         description: ''
         percent: 80
-        icon: wifi
+        icon: circle-stack
   - name: Design
     items:
       - name: Proteus
         description: ''
         percent: 80
-        icon: camera
-      - name: Blender
-        description: ''
-        percent: 70
-        icon: film
+        icon: bolt
+      # - name: Blender
+      #   description: ''
+      #   percent: 70
+      #   icon: film
       - name: Adobe Photoshop
         description: ''
         percent: 90
-        icon: film
+        icon: camera
       - name: Adobe Illustrator
         description: ''
         percent: 85
-        icon: film
+        icon: camera
       - name: Filmora
         description: ''
         percent: 80
         icon: video-camera
 
 
-
-# Add your own SVG icons to `assets/media/icons/`
-# skills:
-#   - name: Programming Languages
-#     items:
-#       - name: Python, C++, Matlab
-#       # - name: 
-#       # - name: Matlab
-
-  # - category: Frameworks
-  #   skills:
-  #     - TensorFlow
-  #     - Keras
-
-  # - category: Libraries
-  #   skills:
-  #     - Librosa
-  #     - Scikit-learn
-
-  # - category: Data Manipulation & Analysis
-  #   skills:
-  #     - Pandas
-  #     - Seaborn
-  #     - EEGLAB
-
-  # - category: Developer Tools
-  #   skills:
-  #     - Git
-  #     - VS Code
-  #     - Visual Studio
-  #     - PyCharm
-
-  # - category: Embedded Systems
-  #   skills:
-  #     - Arduino
-  #     - ESP
-  #     - Raspberry Pi
-
-  # - category: Design & Simulation Software
-  #   skills:
-  #     - Proteus
-  #     - Blender
-
-  # - category: Data Management
-  #   skills:
-  #     - Firebase
-  #     - ThingSpeak
-
-  # - category: Image & Video Editing
-  #   skills:
-  #     - Adobe Photoshop
-  #     - Illustrator
-  #     - Filmora
-
-# skills:
-#   - name: Technical Skills
-#     items:
-#       - name: Python
-#         description: ''
-#         percent: 80
-#         icon: code-bracket
-#       - name: Data Science
-#         description: ''
-#         percent: 100
-#         icon: chart-bar
-#       - name: SQL
-#         description: ''
-#         percent: 40
-#         icon: circle-stack
-#   - name: Hobbies
-#     color: '#eeac02'
-#     color_border: '#f0bf23'
-#     items:
-#       - name: Hiking
-#         description: ''
-#         percent: 60
-#         icon: person-simple-walk
-#       - name: Cats
-#         description: ''
-#         percent: 100
-#         icon: cat
-#       - name: Photography
-#         description: ''
-#         percent: 80
-#         icon: camera
 
 languages:
   - name: English
@@ -344,78 +260,110 @@ languages:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-# awards:
-#   - title: Neural Networks and Deep Learning
-#     url: https://www.coursera.org/learn/neural-networks-deep-learning
-#     date: '2023-11-25'
-#     awarder: Coursera
-#     icon: coursera
-#     summary: |
-#       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+
 awards:
-  - title: Best Poster Presentation
-    # url: [ADD_LINK_HERE]
-    date: 2022-11-30
-    awarder: International Conference on Sustainable Engineering Development (ICSED 2023)
-    icon: award
+  - title: Best Poster Presentation  
+    url: 
+    date: '2023-06-15'  
+    awarder: International Conference
+    icon: academicons/orcid 
     summary: |
-      Awarded Best Poster Presentation at ICSED 2023 for outstanding research contributions.
+      • Awarded **Best Poster Presentation** at International Conference on Sustainable Engineering Development (ICSED 2023).
 
-  - title: Champion - Techfest IIT Bombay 2022
-    # url: [ADD_LINK_HERE]
-    date: 2022-11-30
-    awarder: Techfest IIT Bombay (Mesmerize Segment) [ROBOTICS]
-    icon: trophy
+  - title: International Robotics Competitions  
+    url: https://example.com/competitions  
+    date: 
+    awarder: Various International Competitions  
+    icon: python  
     summary: |
-      Secured 1st place in the Mesmerize Segment of Techfest IIT Bombay 2022.
+      • **Champion** – Techfest IIT Bombay 2022 (Mesmerize Segment) [ROBOTICS].  
+      • **Top-10 Finalist** – TechnoXian World Robotics Championship, India (2023) [ROBOTICS].  
+      • **Champion** – IEEE R10 STEM Quiz Competition, arranged by IEEE Hyderabad Section.  
 
-  - title: Top-10 - TechnoXian World Robotics Championship 2023
-    # url: [ADD_LINK_HERE]
-    date: 2022-11-30
-    awarder: TechnoXian World Robotics Championship, India
-    icon: robot
+  - title: National Robotics & Innovation Competitions  
+    url: 
+    date: 
+    awarder: Various National Competitions  
+    icon: python  
     summary: |
-      Ranked among the Top-10 in the TechnoXian World Robotics Championship 2023.
+      • **Champion** – Mind Spark 2022, arranged by AUST [ROBOTICS].  
+      • **Champion** – DRC Fest 2022, arranged by DUET [ROBOTICS].  
+      • **Top-30 Finalist** – Mujib-100 Idea Competition (flagship event), arranged by University Grant Commission-BD.  
+      • **Top-60 Nationwide** – DUET CSE University Admission Test (2018).  
 
-  - title: Champion - IEEE R10 STEM Quiz Competition
-    # url: [ADD_LINK_HERE]
-    date: 2022-11-30
-    awarder: IEEE R10, organized by IEEE Hyderabad Section
-    icon: certificate
-    summary: |
-      Won the IEEE R10 STEM Quiz Competition, showcasing excellence in STEM knowledge.
 
-  - title: Champion - Mind Spark 2022
-    # url: [ADD_LINK_HERE]
-    date: 2022-11-30
-    awarder: Ahsanullah University of Science and Technology (AUST)
-    icon: trophy
-    summary: |
-      Secured 1st place in the Mind Spark 2022 Robotics Competition.
 
-  - title: Champion - DRC Fest 2022
-    # url: [ADD_LINK_HERE]
-    date: 2022-11-30
-    awarder: Dhaka University of Engineering & Technology (DUET)
-    icon: robot
-    summary: |
-      Won the DRC Fest 2022 Robotics Competition at DUET.
+  # - title: Neural Networks and Deep Learning
+  #   url: https://www.coursera.org/learn/neural-networks-deep-learning
+  #   date: '2023-11-25'
+  #   awarder: Coursera
+  #   icon: coursera
+  #   summary: |
+  #     I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
 
-  - title: Top-30 - Mujib-100 Idea Competition
-    # url: [ADD_LINK_HERE]
-    date: 2022-11-30
-    awarder: University Grants Commission Bangladesh (UGC-BD)
-    icon: award
-    summary: |
-      Selected among the Top-30 in the Mujib-100 Idea Competition, a flagship national event.
+  # - title: Best Poster Presentation
+  #   url: 
+  #   date: 2022-11-30
+  #   awarder: International Conference on Sustainable Engineering Development (ICSED 2023)
+  #   icon: coursera
+  #   summary: |
+  #     Awarded Best Poster Presentation at ICSED 2023 for outstanding research contributions.
 
-  - title: Top-60 in Nationwide University Admission Test (DUET, CSE)
-    # url: [ADD_LINK_HERE]
-    date: 2022-11-30
-    awarder: Dhaka University of Engineering & Technology (DUET)
-    icon: certificate
-    summary: |
-      Achieved a Top-60 ranking in the highly competitive DUET CSE admission test.
+  # - title: Champion - Techfest IIT Bombay 2022
+  #   url: 
+  #   date: 2022-11-30
+  #   awarder: Techfest IIT Bombay (Mesmerize Segment) [ROBOTICS]
+  #   icon: trophy
+  #   summary: |
+  #     Secured 1st place in the Mesmerize Segment of Techfest IIT Bombay 2022.
+
+  # - title: Top-10 - TechnoXian World Robotics Championship 2023
+  #   # url: [ADD_LINK_HERE]
+  #   date: 2022-11-30
+  #   awarder: TechnoXian World Robotics Championship, India
+  #   icon: robot
+  #   summary: |
+  #     Ranked among the Top-10 in the TechnoXian World Robotics Championship 2023.
+
+  # - title: Champion - IEEE R10 STEM Quiz Competition
+  #   # url: [ADD_LINK_HERE]
+  #   date: 2022-11-30
+  #   awarder: IEEE R10, organized by IEEE Hyderabad Section
+  #   icon: certificate
+  #   summary: |
+  #     Won the IEEE R10 STEM Quiz Competition, showcasing excellence in STEM knowledge.
+
+  # - title: Champion - Mind Spark 2022
+  #   # url: [ADD_LINK_HERE]
+  #   date: 2022-11-30
+  #   awarder: Ahsanullah University of Science and Technology (AUST)
+  #   icon: trophy
+  #   summary: |
+  #     Secured 1st place in the Mind Spark 2022 Robotics Competition.
+
+  # - title: Champion - DRC Fest 2022
+  #   # url: [ADD_LINK_HERE]
+  #   date: 2022-11-30
+  #   awarder: Dhaka University of Engineering & Technology (DUET)
+  #   icon: robot
+  #   summary: |
+  #     Won the DRC Fest 2022 Robotics Competition at DUET.
+
+  # - title: Top-30 - Mujib-100 Idea Competition
+  #   # url: [ADD_LINK_HERE]
+  #   date: 2022-11-30
+  #   awarder: University Grants Commission Bangladesh (UGC-BD)
+  #   icon: award
+  #   summary: |
+  #     Selected among the Top-30 in the Mujib-100 Idea Competition, a flagship national event.
+
+  # - title: Top-60 in Nationwide University Admission Test (DUET, CSE)
+  #   # url: [ADD_LINK_HERE]
+  #   date: 2022-11-30
+  #   awarder: Dhaka University of Engineering & Technology (DUET)
+  #   icon: certificate
+  #   summary: |
+  #     Achieved a Top-60 ranking in the highly competitive DUET CSE admission test.
 
 ---
 

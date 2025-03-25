@@ -25,6 +25,7 @@ sections:
     design:
       show_skill_percentage: false
   - block: resume-awards
+    view: compact
     content:
       title: Awards
       username: admin

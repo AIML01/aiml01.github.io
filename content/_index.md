@@ -55,17 +55,21 @@ sections:
   #     columns: 2
   - block: collection
     id: papers
-    
     css_class: "css-1"
     content:
-      title: Selected Publications
-      text: "For the latest updates, please visit my <a href='https://scholar.google.com/citations?user=3ScF50oAAAAJ' style='color: blue; font-weight: bold;'>📚 Google Scholar</a> page."
+      title: Research
+      text: |
+        <span style='font-size: medium;'>For the latest updates, please visit my <a href='https://scholar.google.com/citations?user=3ScF50oAAAAJ' style='color: red; font-weight: bold;'>📚 Google Scholar</a> page.</span>  
+        <br>  
+        <span style='font-size: medium;'>My research interests include Computer Vision and Robotics. I have bit of experience in Deep Learning, Machine Learning, XAI. Most recently working on Semantic Segmentation and actively <u>seeking a PhD opportunity 🎓</u></span>
+
+
       filters:
         folders:
           - publication
         exclude_featured: false
     design:
-      view: compact 
+      view: citation 
       # columns: 1 
       # background:
       #   color: blue
@@ -74,9 +78,9 @@ sections:
         font-size: small;
         # color: #fff;
         line-height: 1.5;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
         border-radius: 8px;
 
 
@@ -90,7 +94,7 @@ sections:
         margin-top: 5px;
         margin-bottom: 5px;
         # background-color: blue;
-        # padding: 20px;
+        # padding: 10px;
         border-radius: 8px;
         /* Default box shadow */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -108,20 +112,20 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Media Coverage
       filters:
         folders:
           - event
     design:
-      view: article-grid
+      view: compact #article-grid
       columns: 1
       css_style: |
         font-size: small;
         # color: #fff;
         line-height: 1.5;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
         border-radius: 8px;
 
 
@@ -135,7 +139,7 @@ sections:
         margin-top: 5px;
         margin-bottom: 5px;
         # background-color: blue;
-        # padding: 20px;
+        # padding: 10px;
         border-radius: 8px;
         /* Default box shadow */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -192,6 +196,47 @@ sections:
   #         @media (prefers-color-scheme: dark) {
   #           box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);  /* Darker shadow for dark theme */
   #         }
+  - block: resume-skills
+    content:
+      title: Skills
+      username: admin
+    design:
+      show_skill_percentage: false
+      css_style: |
+        font-size: small;
+        # color: #fff;
+        line-height: 1.5;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 8px;
+
+
+        /* Adjustments for dark theme */
+        @media (prefers-color-scheme: dark) {
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);  /* Darker shadow for dark theme */
+        }
+        font-size: small;
+        # color:rgb(41, 43, 43);
+        line-height: 1.5;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        # background-color: blue;
+        # padding: 10px;
+        border-radius: 8px;
+        /* Default box shadow */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+        /* Light theme */
+        @media (prefers-color-scheme: light) {
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Lighter shadow for light theme */
+        }
+
+        /* Dark theme */
+        @media (prefers-color-scheme: dark) {
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);  /* Darker shadow for dark theme */
+        }
+
 
   - block: collection
     id: news
@@ -218,9 +263,17 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: date-title-summary
+      view:  date-title-summary
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+      css_style: |
+        font-size: small;
+        color: #fff;
+        line-height: 1.5;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 8px;
 
 ---

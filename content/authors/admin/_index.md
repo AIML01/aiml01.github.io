@@ -147,90 +147,190 @@ work:
 #       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - category: Programming Languages
-    skills:
-      - Python
-      - C++
-      - Matlab
+  - name: Programming
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: C++
+        description: ''
+        percent: 75
+        icon: code-bracket
+      - name: Matlab
+        description: ''
+        percent: 70
+        icon: code-bracket
+      - name: Git
+        description: ''
+        percent: 90
+        icon: python
+      - name: VS Code
+        description: ''
+        percent: 85
+        icon: python
+      - name: PyCharm
+        description: ''
+        percent: 80
+        icon: python
+  - name: Frameworks
+    items:
+      - name: TensorFlow
+        description: ''
+        percent: 85
+        icon: tensorflow
+      - name: Keras
+        description: ''
+        percent: 90
+        icon: keras
+      - name: Scikit-learn
+        description: ''
+        percent: 95
+        icon: flask
+      - name: Pandas
+        description: ''
+        percent: 90
+        icon: table
+      - name: Seaborn
+        description: ''
+        percent: 80
+        icon: chart-bar
+      - name: EEGLAB
+        description: ''
+        percent: 70
+        icon: brain
+  - name: Embedded
+    items:
+      - name: Arduino
+        description: ''
+        percent: 85
+        icon: chip
+      - name: Raspberry Pi
+        description: ''
+        percent: 80
+        icon: markdown
+      - name: ESP
+        description: ''
+        percent: 75
+        icon: chip
+      - name: Firebase
+        description: ''
+        percent: 85
+        icon: firebase
+      - name: ThingSpeak
+        description: ''
+        percent: 80
+        icon: wifi
+  - name: Design
+    items:
+      - name: Proteus
+        description: ''
+        percent: 80
+        icon: camera
+      - name: Blender
+        description: ''
+        percent: 70
+        icon: film
+      - name: Adobe Photoshop
+        description: ''
+        percent: 90
+        icon: film
+      - name: Adobe Illustrator
+        description: ''
+        percent: 85
+        icon: film
+      - name: Filmora
+        description: ''
+        percent: 80
+        icon: video-camera
 
-  - category: Frameworks
-    skills:
-      - TensorFlow
-      - Keras
 
-  - category: Libraries
-    skills:
-      - Librosa
-      - Scikit-learn
 
-  - category: Data Manipulation & Analysis
-    skills:
-      - Pandas
-      - Seaborn
-      - EEGLAB
+# Add your own SVG icons to `assets/media/icons/`
+# skills:
+#   - name: Programming Languages
+#     items:
+#       - name: Python, C++, Matlab
+#       # - name: 
+#       # - name: Matlab
 
-  - category: Developer Tools
-    skills:
-      - Git
-      - VS Code
-      - Visual Studio
-      - PyCharm
+  # - category: Frameworks
+  #   skills:
+  #     - TensorFlow
+  #     - Keras
 
-  - category: Embedded Systems
-    skills:
-      - Arduino
-      - ESP
-      - Raspberry Pi
+  # - category: Libraries
+  #   skills:
+  #     - Librosa
+  #     - Scikit-learn
 
-  - category: Design & Simulation Software
-    skills:
-      - Proteus
-      - Blender
+  # - category: Data Manipulation & Analysis
+  #   skills:
+  #     - Pandas
+  #     - Seaborn
+  #     - EEGLAB
 
-  - category: Data Management
-    skills:
-      - Firebase
-      - ThingSpeak
+  # - category: Developer Tools
+  #   skills:
+  #     - Git
+  #     - VS Code
+  #     - Visual Studio
+  #     - PyCharm
 
-  - category: Image & Video Editing
-    skills:
-      - Adobe Photoshop
-      - Illustrator
-      - Filmora
+  # - category: Embedded Systems
+  #   skills:
+  #     - Arduino
+  #     - ESP
+  #     - Raspberry Pi
+
+  # - category: Design & Simulation Software
+  #   skills:
+  #     - Proteus
+  #     - Blender
+
+  # - category: Data Management
+  #   skills:
+  #     - Firebase
+  #     - ThingSpeak
+
+  # - category: Image & Video Editing
+  #   skills:
+  #     - Adobe Photoshop
+  #     - Illustrator
+  #     - Filmora
 
 # skills:
-  # - name: Technical Skills
-  #   items:
-  #     - name: Python
-  #       description: ''
-  #       percent: 80
-  #       icon: code-bracket
-  #     - name: Data Science
-  #       description: ''
-  #       percent: 100
-  #       icon: chart-bar
-  #     - name: SQL
-  #       description: ''
-  #       percent: 40
-  #       icon: circle-stack
-  # - name: Hobbies
-  #   color: '#eeac02'
-  #   color_border: '#f0bf23'
-  #   items:
-  #     - name: Hiking
-  #       description: ''
-  #       percent: 60
-  #       icon: person-simple-walk
-  #     - name: Cats
-  #       description: ''
-  #       percent: 100
-  #       icon: cat
-  #     - name: Photography
-  #       description: ''
-  #       percent: 80
-  #       icon: camera
+#   - name: Technical Skills
+#     items:
+#       - name: Python
+#         description: ''
+#         percent: 80
+#         icon: code-bracket
+#       - name: Data Science
+#         description: ''
+#         percent: 100
+#         icon: chart-bar
+#       - name: SQL
+#         description: ''
+#         percent: 40
+#         icon: circle-stack
+#   - name: Hobbies
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Hiking
+#         description: ''
+#         percent: 60
+#         icon: person-simple-walk
+#       - name: Cats
+#         description: ''
+#         percent: 100
+#         icon: cat
+#       - name: Photography
+#         description: ''
+#         percent: 80
+#         icon: camera
 
 languages:
   - name: English
